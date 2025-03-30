@@ -1,12 +1,51 @@
-# React + Vite
+# Hiring Assignment 2
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based web application built with Vite, featuring a modern tech stack and development environment.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React 19
+- Vite 6
+- TailwindCSS
+- Fabric.js
+- ESLint
 
-## Expanding the ESLint configuration
+## Prerequisites
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Node.js (Latest LTS version recommended)
+- npm (comes with Node.js)
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## Available Scripts
+
+- `npm run dev` - Start the development server with hot module replacement
+- `npm run build` - Build the project for production
+- `npm run preview` - Preview the production build locally
+- `npm run lint` - Run ESLint to check code quality
+
+## Development
+
+The project uses:
+- Vite for fast development and building
+- ESLint for code quality and consistency
+- TailwindCSS for styling
+- Fabric.js for canvas manipulation
+
+## Deployment
+
+This project is configured for deployment on Vercel. The deployment process is automated through the Vercel CLI.
+
+## License
+
+Private - All rights reserved
